@@ -7,8 +7,8 @@ var randomDiceImage2 = "images/dice" + random2 + ".png";
 document.querySelector(".img2").setAttribute("src", randomDiceImage2);
 
 if (random1 > random2)
-  document.querySelector("h1").innerHTML = "🏆 Player 1 Wins 🏆";
+  document.querySelector("h1").innerHTML = "🏆Player 1 Wins🏆";
 else if (random1 === random2)
   document.querySelector("h1").innerHTML = "🚩 Tie! 🚩";
-else document.querySelector("h1").innerHTML = "🏆 Player 2 Wins 🏆";
+else document.querySelector("h1").innerHTML = "🏆Player 2 Wins🏆";
 
